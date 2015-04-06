@@ -323,7 +323,9 @@ function goMapShortCode($atts){
                   address: '".$loc."',
                   zoom: 16,
                   scaleControl: true,
-                  scrollwheel: false, 
+                  scrollwheel: false,
+                  navigationControl: true,
+                  mapTypeControl: true, 
                   maptype: 'ROADMAP'
               });
               jQuery.goMap.createMarker({
