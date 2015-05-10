@@ -317,6 +317,7 @@ function goMapShortCode($atts){
     $loc = $options['contact_street'].", ".$options['contact_city'].", ".$options['contact_state'].", ".$options['contact_country'];
     
     $map = " <script type='text/javascript'>
+            //<![CDATA[
           jQuery(document).ready(function() {
 
              jQuery('".$block."').goMap({
@@ -337,7 +338,7 @@ function goMapShortCode($atts){
                 'width':'".$width."'  
                   })
             });
-
+          //]]>
           </script>    
 
         <div id='mapsetting'>         
