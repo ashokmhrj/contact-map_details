@@ -6,4 +6,5 @@ A wordpress plugins for shortcode of contact address and google map
 
 Paste shortcode "[showContact]" in your post or page to get contact details.
 
-Paste shortcode "[goMap]" in your post or page to get map.       
+Paste shortcode "[goMap]" in your post or page to get map.
+Or use widget
