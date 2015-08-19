@@ -341,7 +341,7 @@ function goMapShortCode($atts){
           //]]>
           </script>    
 
-        <div id='mapsetting'>         
+        <div id='".$param['block']."'>
         </div>";
      return $map;
   }

@@ -21,4 +21,4 @@ function webEq_display_menu_icon(){
 add_action( 'admin_head', 'webEq_display_menu_icon' );
  
 require_once('contact-panel.php');
-
+require_once('contact-widget.php');
