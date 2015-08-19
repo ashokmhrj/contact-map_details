@@ -2,12 +2,12 @@
 defined( 'ABSPATH' ) or die( 'Plugin file cannot be accessed directly.' );
 
 /**
- * Plugin Name: Shortcode for map and contact
- * Plugin URI: http://web-equation.com
- * Description: Helps to show google map and contact.
+ * Plugin Name: Show map and contact
+ * Plugin URI: 
+ * Description: Show google map in shortcode or widget.
  * Version: 1.0.2
- * Author: Web Equation
- * Author URI: http://web-equation.com 
+ * Author: Ashok Maharjan
+ * Author URI: 
  * License: GPL2
  */
 
